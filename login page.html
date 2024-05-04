@@ -78,7 +78,9 @@
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password"required>
+                    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                       title="Password must contain at least one uppercase letter, one lowercase letter, and one digit. Minimum length: 8 characters." 
+                       required>
                     <label>Password</label>
                 </div>
                 <div class="remember-forgot">
