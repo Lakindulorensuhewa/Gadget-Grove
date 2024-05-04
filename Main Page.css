@@ -79,7 +79,7 @@ nav ul li a:hover{
     transition: .5s;
 }
 .navbar .btnlogin-popup:hover {
-    background: orangered;
+    background: black;
     color: white;
     
 }
